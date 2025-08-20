@@ -1,0 +1,120 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+
+    body { background: #f8f9fa; padding: 20px;
+      background-image: url("image/images.jpeg");
+      background-size: cover; 
+    }
+
+
+    h1 { text-align: center; color: #333; margin-bottom: 10px; }
+    p { text-align: center; margin-bottom: 20px; color: #555; }
+
+    /* Form Styling */
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    form input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+    form button {
+      width: 100%;
+      padding: 10px;
+      background: rgb(0, 123, 255);
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    form button:hover { background: #1c6bbf; }
+
+    /* Display Section */
+    .display-section {
+      max-width: 900px;
+      margin: 30px auto;
+      overflow-x: auto;
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    th { background: #007bff; color: white; }
+    
+    .action-btn {
+      padding: 5px 10px;
+      margin: 2px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      color: white;
+    }
+    .edit { background: green;
+     width: 50px;
+     height: 40px;
+     margin-left: 1px;
+     margin-right: 10px;
+     border-radius: 10px;
+     color: white;
+    }
+
+    .delete { background: red; 
+    width: 80px;
+    height: 40px;
+    margin-right: 1px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      form, .display-section { padding: 15px; }
+      table, th, td { font-size: 14px; }
+    }
+
+    @media(min-width: 641px)and
+    (max-width: 1024px){
+        form,.display-section{
+            padding: 18px;
+        }
+        table,th,td{
+            font-size: 17px;
+        }
+    }
+
+    @media(width >= 1025px){
+form,.display-section{
+            padding: 20px;
+        }
+        table,th,td{
+            font-size: 18px;
+        }
+    }
+tr td{
+      max-width: 900px;
+      margin: 10px auto;
+      overflow-x: auto;
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

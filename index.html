@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <script src="indexx.js" defer></script>
+</head>
+<body>
+   
+    <header>
+<h1>Student Registration System</h1>
+  <p>Register students, edit their details, and manage records efficiently.</p>
+
+    </header>
+     
+   <!-- Form Section -->
+  <form id="studentForm">
+    <input type="text" id="name" placeholder="Student Name" required pattern="[A-Za-z ]+">
+    <input type="text" id="studentId" placeholder="Student ID" required pattern="[0-9]+">
+    <input type="email" id="email" placeholder="Email ID" required>
+    <input type="text" id="contact" placeholder="Contact Number" required pattern="[0-9]{10,}">
+    <button type="submit">Add / Update Student</button>
+  </form>
+
+  <!-- Display Section -->
+  <div class="display-section">
+    <h2>Registered Students</h2>
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Student ID</th>
+          <th>Email</th>
+          <th>Contact</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
